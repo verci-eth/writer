@@ -36,10 +36,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>your best poem</h1>
+            <h1>prompt gen</h1>
           </div>
           <div className="header-subtitle">
-            <h2>enter the title and generate</h2>
+            <h2>enter your request and get three top-notch prompts</h2>
           </div>
         </div>
         <div className="prompt-container">
