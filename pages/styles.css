@@ -64,6 +64,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
+    text-align: center;
     color: rgba(255, 255, 255, 0.75);
 }
 
@@ -322,7 +323,6 @@ textarea {
 }
 
 .output-content p {
-    text-align: center;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
