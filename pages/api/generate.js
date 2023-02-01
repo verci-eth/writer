@@ -7,11 +7,10 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-`List the 10 most effective prompts to ask GPT-3 the below request. The list must not start with numbers.
+`List the 10 most effective prompts to ask GPT-3 the below request.
 Request: `
 
 const generateAction = async (req, res) => {
-  console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
 
   const baseCompletion = await openai.createCompletion({
     model: 'text-davinci-003',
