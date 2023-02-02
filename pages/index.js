@@ -37,7 +37,8 @@ const Home = () => {
             <h1>prompt gen</h1>
           </div>
           <div className="header-subtitle">
-            <h2>enter your request and get three top-notch prompts</h2>
+            <h2>what do you want to ask to AI?</h2>
+            <h2>enter below to get three top-notch prompts</h2>
           </div>
         </div>
         <div className="prompt-container">
