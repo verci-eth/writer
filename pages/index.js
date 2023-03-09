@@ -11,7 +11,7 @@ const Home = () => {
     setIsGenerating(true);
     
     const response = await fetch('/api/generate', {
-      method: 'GET',
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
